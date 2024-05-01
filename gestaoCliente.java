@@ -54,8 +54,7 @@ public class gestaoCliente {
 
     // Método para associar um cliente a uma mesa
     public void alocarClienteAMesa(String nomeCliente, int numeroMesa) {
-        // Implemente a lógica aqui para associar o cliente à mesa
-        // Por exemplo:
+        
         System.out.println("Cliente " + nomeCliente + " alocado na mesa " + numeroMesa);
     }
 
