@@ -88,8 +88,6 @@ public class ListaMesa {
         while (atual != null) {
             if (atual.getNumero() == numeroMesa) {
                 atual.setStatusOcupacao(true);
-                // Você pode adicionar mais lógica aqui, dependendo dos requisitos específicos
-                // do seu sistema
                 return;
             }
             atual = atual.getProximaMesa();
