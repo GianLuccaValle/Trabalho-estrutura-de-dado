@@ -3,14 +3,14 @@ public class Cliente {
     private boolean contaAberta;
     private double totalConta;
 
-    // Construtor
+    
     public Cliente(String nome) {
         this.nome = nome;
         this.contaAberta = true; // Ao criar um cliente, a conta está aberta por padrão
         this.totalConta = 0; // Inicializa o total da conta como zero
     }
 
-    // Getters e setters
+    
     public String getNome() {
         return nome;
     }
@@ -28,8 +28,8 @@ public class Cliente {
         if (contaAberta) {
             // Verifica se há algum valor pendente na conta
             if (totalConta > 0) {
-                // Aqui você pode adicionar lógica para solicitar o pagamento do cliente,
-                // calcular o troco, etc.
+                
+                
                 System.out.println("Por favor, efetue o pagamento de R$" + totalConta);
             }
             // Fecha a conta
